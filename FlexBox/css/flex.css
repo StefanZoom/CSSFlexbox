@@ -1,0 +1,24 @@
+.container {
+	border : 5px solid forestgreen;
+	display : flex;
+}
+
+.container > div.home {
+	flex : 2;
+	order : 1;
+}
+
+.container > div.search {
+	flex : 1;
+	order : 4;
+}
+
+.container > div.logout {
+	flex : 1;
+	order : 3;
+}
+
+.container > div.account {
+	flex : 1;
+	order : 2;
+}

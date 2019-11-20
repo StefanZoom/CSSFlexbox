@@ -1,0 +1,36 @@
+@media (min-width: 248px) and (max-width: 576px) {
+	nav.container {
+		flex-direction: column;
+		justify-content: center;
+		font-size : 1.4rem;
+	}
+
+	nav.container > div {
+		color : black;
+	}
+}
+
+@media (min-width: 577px) and (max-width: 768px) {
+	nav.container {
+		flex-direction: column;
+		justify-content: center;
+		font-size : 1.7rem;
+	}
+
+	nav.container > div {
+		color : teal;
+	}
+
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+	nav.container {
+		flex-direction: column;
+		justify-content: center;
+		font-size : 2rem;
+	}
+
+	nav.container > div {
+		color : white;
+	}
+}
